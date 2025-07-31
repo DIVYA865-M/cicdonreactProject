@@ -3,10 +3,11 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "home" :"https://DIVYA865-M.github.io/cicdonreactProject",
+  "home": "https://DIVYA865-M.github.io/cicdonreactProject",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "lint" : "eslint . ",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
